@@ -10,9 +10,19 @@
         "production": "mix --production"
     },
     "devDependencies": {
-        "axios": "^0.25",
+        "axios": "^0.25.0",
+        "babel-eslint": "^10.1.0",
         "laravel-mix": "^6.0.6",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "mix-tailwindcss": "^1.3.0",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.0.24",
+        "vue": "^2",
+        "vue-axios": "^3.4.1",
+        "vue-loader": "^15.9.8",
+        "vue-router": "^3.5.4",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "file-saver": "^2.0.5"
     }
 }
